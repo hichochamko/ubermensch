@@ -8,6 +8,10 @@ a {
   color: black;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1,h2,h3{
   margin: 0;
 }
@@ -46,6 +50,10 @@ h1,h2,h3{
 #main{
   width: 600px;
   float: right;
+}
+
+#main audio{
+  padding: 10px 10px 10px 0px;
 }
 
 #footer{
